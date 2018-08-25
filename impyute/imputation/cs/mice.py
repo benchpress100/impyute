@@ -1,9 +1,9 @@
 """ impyute.imputation.cs.mice """
 import numpy as np
 from sklearn.linear_model import LinearRegression
-from impyute.util import find_null
-from impyute.util import checks
-from impyute.util import preprocess
+from impyute.utils import find_null
+from impyute.utils import checks
+from impyute.utils import preprocess
 # pylint: disable=too-many-locals
 # pylint:disable=invalid-name
 # pylint:disable=unused-argument
